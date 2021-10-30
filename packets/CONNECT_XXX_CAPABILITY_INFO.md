@@ -19,7 +19,7 @@
 | `0x02` |        1 byte         | UUID length (`N`)  |
 | `0x03` | `min(N, 128)` byte(s) |        UUID        |
 
-The capability counter doesn't seem to have any significant use in the app other than verifying that it has a valid value.
+The capability counter doesn't seem to have must use in the protocol.
 
 The UUID is the the device's Bluetooth MAC address.
 
